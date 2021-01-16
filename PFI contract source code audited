@@ -1,0 +1,19 @@
+Protocol Finance plans to build several Defi - Apps and then make these products into full-fledged projects thereby increasing the value of the Protocol Finance ecosystem.
+
+For this audit, we analyzed the team's token smart contract, deployed at 0x7b69d465c0f9fb22affae56aa86149973e9b0966. We are not aware of any other contracts from the team.
+
+Features of the token contract:
+The total supply of 20,000 tokens is sent to the deployer upon deployment.
+No minting or burning functions are present.
+Tokens can, however, be sent to address(0) where they are inaccessible. Currenlty 1,001 have been sent to the address.
+
+No Ownership-restricted functions exist.
+The contract utilizes SafeMath to prevent overflow attacks.
+Audit Findings Summary
+No security issues were identified.
+Date: January 10th, 2020
+
+Protocolfinance contract was audited by solidity Finance
+
+Contract audit analysis available here
+https://solidity.finance/audits/ProtocolFinance/
